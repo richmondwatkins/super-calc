@@ -6,7 +6,7 @@
 
 
   function initialize(){
-  $('#calculator').click(title);
+np
   $('.number').click(display);
   $('.clear').click(clearDisplay);
   $('.decimal').click(addDecimal);
@@ -14,15 +14,6 @@
 
   }
 
-  function title() {
-    var display  = $('#calculator').css('display');
-
-      if(display === 'none'){
-        $('#calculator').fadeIn();
-      }else {
-        $('#calculator').fadeOut();
-      }
-  }
 
 
   function display() {
